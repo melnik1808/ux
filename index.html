@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visão Humana & Tecnociência</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BARRA DE ACESSIBILIDADE -->
+  <nav class="barra-acessibilidade" aria-label="Controles de Acessibilidade">
+    <button id="btnAumentaTexto" class="botao-controle" title="Aumentar texto">A+ Aumentar</button>
+    <button id="btnDiminuiTexto" class="botao-controle" title="Diminuir texto">A- Diminuir</button>
+    <button id="btnVoz" class="botao-controle botao-leitura" title="Ouvir Página">🔊 Ouvir Página</button>
+  </nav>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main>
+    <!-- BANNER INICIAL -->
+    <header class="banner">
+      <h1>Visão Humana, Física & Tecnociência</h1>
+      <p>Compreenda o funcionamento dos olhos, as anomalias visuais e como a robótica e a tecnologia moderna podem transformar a saúde da visão.</p>
+      <button class="botao-ajuda">Resumo Visual</button>
+    </header>
+
+    <!-- COMO FUNCIONA O OLHO HUMANO -->
+    <section class="secao-dicas">
+      <h2>Como Funciona o Olho Humano?</h2>
+      <div class="grade-dicas">
+        <article class="cartao-dica">
+          <h3>Córnea e Cúpula Ciliar</h3>
+          <p>A luz entra pela córnea, que funciona como a primeira lente do olho, refratando os raios luminosos para focar na retina.</p>
+        </article>
+        <article class="cartao-dica">
+          <h3>Íris e Pupila</h3>
+          <p>A íris ajusta o diâmetro da pupila, regulando quanta luz entra no olho humano (semelhante ao diafragma de uma câmera).</p>
+        </article>
+        <article class="cartao-dica">
+          <h3>Cristalino e Retina</h3>
+          <p>O cristalino ajusta o foco fino. A retina possui fotorreceptores (cones e bastonetes) que transformam a luz em impulsos elétricos para o cérebro.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROBLEMAS DE VISÃO -->
+    <section class="secao-golpes">
+      <h2>Problemas de Visão & Óptica Física</h2>
+      <div class="grade-golpes">
+        <div class="cartao-golpe">
+          <h3>Miopia e Hipermetropia</h3>
+          <p>Na miopia, a imagem é focada antes da retina (corrigida com lentes divergentes). Na hipermetropia, o foco fica atrás da retina (corrigida com lentes convergentes).</p>
+        </div>
+        <div class="cartao-golpe">
+          <h3>Astigmatismo e Catarata</h3>
+          <p>O astigmatismo gera imperfeições na curvatura da córnea. A catarata opacifica o cristalino, bloqueando a entrada da luz e borrando a visão.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO A TECNOLOGIA PODE RESOLVER -->
+    <section class="secao-direitos">
+      <div class="caixa-direitos">
+        <h2>Como a Tecnologia Soluciona Problemas Visuais</h2>
+        <ul>
+          <li><strong>Dispositivos Biomédicos:</strong> Impressão 3D de córneas artificiais e cirurgias robóticas a laser de alta precisão (LASIK).</li>
+          <li><strong>Olhos Biónicos & Sensores:</strong> Sensores ópticos que convertem imagens digitais em impulsos elétricos no nervo óptico.</li>
+          <li><strong>IA e Diagnóstico Preventivo:</strong> Algoritmos de inteligência artificial que detectam glaucoma e retinopatia em fases iniciais.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJETOS DE ROBÓTICA, FÍSICA E TECNOCIÊNCIA -->
+    <section class="secao-projetos">
+      <h2>Nossos Projetos (Robótica, Física e Tecnociência)</h2>
+
+      <div class="grade-projetos">
+        <!-- PROJETO 1: ROBÓTICA -->
+        <article class="cartao-projeto">
+          <span class="tag-categoria">Robótica</span>
+          <h3>Projeto 1: Óculos Robóticos Assistivos</h3>
+          <p><strong>Descrição:</strong> Um protótipo que utiliza sensores ultrassônicos e microcontroladores (Arduino/ESP32) para emitir alertas sonoros e táteis, auxiliando pessoas com deficiência visual a desviar de obstáculos altos e baixos.</p>
+          <div class="detalhes-projeto">
+            <p><strong>Física aplicada:</strong> Propagação de ondas ultrassônicas, cálculo de distância por tempo de eco (d = v · t).</p>
+          </div>
+        </article>
+
+        <!-- PROJETO 2: FÍSICA E ÓPTICA -->
+        <article class="cartao-projeto">
+          <span class="tag-categoria">Física Óptica</span>
+          <h3>Projeto 2: Simulador Interativo de Lentes</h3>
+          <p><strong>Descrição:</strong> Experimento físico-digital que demonstra a refração da luz, convergência e divergência em lentes esféricas, ajudando no ensino da correção de miopia e astigmatismo.</p>
+          <div class="detalhes-projeto">
+            <p><strong>Física aplicada:</strong> Lei de Snell-Descartes, equação dos pontos conjugados de Gauss (1/f = 1/p + 1/p').</p>
+          </div>
+        </article>
+
+        <!-- PROJETO 3: TECNOCIÊNCIA -->
+        <article class="cartao-projeto">
+          <span class="tag-categoria">Tecnociência</span>
+          <h3>Projeto 3: Leitor Inteligente por Visão Computacional</h3>
+          <p><strong>Descrição:</strong> Sistema de IA e câmera que reconhece caracteres (OCR) em rótulos e livros, convertendo o texto escrito em síntese de voz em tempo real para pessoas com baixa visão.</p>
+          <div class="detalhes-projeto">
+            <p><strong>Tecnologia aplicada:</strong> Processamento de imagem, Redes Neurais Conectivas e Text-to-Speech (TTS).</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- FORMULÁRIO PARA ADICIONAR/EXPLICAR SEU PRÓPRIO PROJETO -->
+      <div class="caixa-explicar-projeto">
+        <h3>Explique o Seu Projeto</h3>
+        <p>Utilize este espaço para documentar a sua ideia de robótica ou feira de ciências:</p>
+        <form id="formProjeto" onsubmit="event.preventDefault();">
+          <div class="grupo-campo">
+            <label for="tituloProjeto">Nome do Projeto:</label>
+            <input type="text" id="tituloProjeto" placeholder="Ex: Bengala Inteligente com Sensor de Vibração" required>
+          </div>
+          
+          <div class="grupo-campo">
+            <label for="categoriaProjeto">Área Principal:</label>
+            <select id="categoriaProjeto">
+              <option value="Robótica">Robótica</option>
+              <option value="Física">Física / Óptica</option>
+              <option value="Tecnociência">Tecnociência</option>
+            </select>
+          </div>
+
+          <div class="grupo-campo">
+            <label for="descricaoProjeto">Explicação do Projeto:</label>
+            <textarea id="descricaoProjeto" rows="4" placeholder="Descreva o problema visual que o projeto resolve, quais componentes foram usados (sensores, lentes, software) e como a física se aplica..." required></textarea>
+          </div>
+
+          <button type="button" id="btnSalvarProjeto" class="botao-ajuda">Registrar Projeto</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <p>&copy; Projeto de Ensino: Visão Humana, Robótica e Tecnociência Aplicada.</p>
+  </footer>
+
+  <!-- MODAL DE RESUMO VISUAL -->
+  <div class="modal-fundo">
+    <div class="modal-conteudo">
+      <h2>Resumo da Visão e Soluções</h2>
+      <p>Principais conceitos abordados nesta plataforma científica:</p>
+      <ol>
+        <li><strong>Formação da Imagem:</strong> A luz passa pela córnea, pupila, cristalino e foca na retina.</li>
+        <li><strong>Física Óptica:</strong> Defeitos de visão são corrigidos com refração de luz por lentes convergentes e divergentes.</li>
+        <li><strong>Robótica Assistiva:</strong> Microcontroladores e sensores substituem ou auxiliam percepções sensoriais perdidas.</li>
+        <li><strong>Tecnociência:</strong> Algoritmos de visão computacional expandem os limites da biologia humana.</li>
+      </ol>
+      <button class="botao-ajuda botao-fechar">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
